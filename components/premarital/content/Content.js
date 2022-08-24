@@ -33,7 +33,7 @@ const Content = ({ data, pb }) => {
         '><Image src={data.img} />
           </div>
         </div>
-        <div className="w-full xl:w-[50%] pt-[97%] md:pt-[680px] xl:pt-0">
+        <div className="w-full xl:w-[50%]   md:pt-[680px] xl:pt-0">
           <h6 className="fgb text-[18px] md:text-[28px] leading-[18px] md:leading-[36px] text-[#555555]">
            {data.title}
           </h6>

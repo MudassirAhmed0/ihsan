@@ -29,7 +29,7 @@ const Content = ({ data, pb }) => {
       <div className="myContainer flex flex-col xl:flex-row justify-end relative">
 
       
-        <div className="w-full xl:w-[100%] pt-[97%] md:pt-[680px] xl:pt-0">
+        <div className="w-full xl:w-[100%]   md:pt-[680px] xl:pt-0">
            
           <p className="text-[12px] md:text-[24px] leading-[16px] md:leading-[36px] text-[#555555] pt-[15px] md:pt-[35px]">
          {data.paragraph1}
