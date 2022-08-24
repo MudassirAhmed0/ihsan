@@ -309,7 +309,7 @@ export default function BookAppointment({id}) {
     console.log(sessionDetails)
   return (
     <Layout>
-       {sessionDetails && <Content data={sessionDetails} />
+       {sessionDetails && <Content data={sessionDetails.sessions} />
  } </Layout>
   );
 }
