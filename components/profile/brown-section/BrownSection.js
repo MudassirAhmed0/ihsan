@@ -14,10 +14,10 @@ const BrownSection = ({id}) => {
     <div className="main__container relative z-[2]">
         <div className="bg-[#AE8B5C ] p-[50px] xl:p-[100px] text-center">
           <h1 className='fpr text-[35px] md:text-[75px] sc1500:text-[100px] leading-[35px] md:leading-[75px] sc1500:leading-[100px] capitalize text-[#fff] text-center mx-auto'>Shedule your session today!</h1>
-          <h2 className="fpr text-[28px] leading-[28px] 2xl:text-[52px] 2xl:leading-[52px] mt-[70px] text-[#fff]">Schedule an online session with one of our experienced coaches. We are here to listen and be with you during every step of your journey.</h2>
+          <h2 className="fpr text-[28px] leading-[28px] 2xl:text-[52px] 2xl:leading-[52px] mt-[40px] text-[#fff]">Schedule an online session with one of our experienced coaches. We are here to listen and be with you during every step of your journey.</h2>
             <div className=" w-full">
               <Link href={`/book-appointment/${id}`}>
-              <button className="shadow-[0_0_6px_#00000029] rounded-[100px] mx-auto bg-[#0F2E3C] hover:bg-[#fff] text-[#fff] hover:text-[#0F2E3C] text-[12px] md:text-[22px] lg:text-[28px] font-bold px-10 md:px-[5%] md:px-[7%] py-3 md:py-[1%] md:py-[1.5%] mt-[5%]">Book Appointment</button>
+              <button className="shadow-[0_0_6px_#00000029] rounded-[100px] mx-auto bg-[#0F2E3C] hover:bg-[#fff] text-[#fff] hover:text-[#0F2E3C] text-[12px] md:text-[22px] lg:text-[28px] font-bold px-10 md:px-[5%] md:px-[7%] py-3 md:py-[20px] md:py-[20px] mt-[35px]">Book Appointment</button>
               </Link>
             </div>
         </div>
