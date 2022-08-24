@@ -46,21 +46,21 @@ export default function Navigation() {
 
   return (
     <div>
-      <div className="hidden md:block h-[50px] bg-[#fff]">
+      <div className="hidden lg:h-[30px] md:block h-[50px] bg-[#fff]">
         <ul className="myContainer flex justify-end items-center h-[100%]">
-          <li className="px-[1.8%] text-[24px] fgr font-[600]">
+          <li className="px-[12px]  text-[15px] fgr font-[600]">
             <Link href="#">Careers</Link>
           </li>
-          <li className="px-[1.8%] text-[24px] fgr font-[600]">
+          <li className="px-[12px]  text-[15px] fgr font-[600]">
             <Link href="#">Blog</Link>
           </li>
-          <li className="px-[1.8%] text-[24px] fgr font-[600]">
+          <li className="px-[12px]  text-[15px] fgr font-[600]">
             <Link href='/contact'>Contact</Link>
           </li>
-          <li className="px-[1.8%] text-[24px] fgr font-[600]">
+          <li className="px-[12px]  text-[15px] fgr font-[600]">
            <Link href="#">Donations</Link>
           </li>
-          <li className="px-[0.5%] text-[24px] fgr font-[600]">
+          <li className="px-[0.5%]  text-[15px] fgr font-[600]">
            <Link href="#"><a><FiInstagram /></a></Link>
           </li>
           <li className="px-[0.5%] text-[24px] fgr font-[600]">
@@ -84,40 +84,40 @@ export default function Navigation() {
         <div className="myContainer flex-col  xl:flex-row flex items-center justify-between">
               <Link href="/">
                  <a>
-          <div className="w-[244px] h-[83px] bg-pink-40 0 opacity-[.4 ] pb-[1px] hidden xl:block">
+          <div className="w-[180px] h-[53px] bg-pink-40 0 opacity-[.4 ] pb-[1px] hidden xl:block">
               <Image src={logo} alt="Logo" width={1500} height={500} />
           </div>
              </a>
             </Link>
           <ul className="desktop-nav-menu text-white capitalize flex-col xl:flex-row text-center xl:text-left flex gap-x-8 pb-[40px] xl:pb-0">
-            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[18px] sm:text-[23px] 2xl:text-[30px] px-[5px] 2xl:px-[8px] py-[20px] xl:py-[50px]">
+            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[16px] sm:text-[18px] 2xl:text-[20px]  py-[15px] xl:py-[30px]">
               <Link href="/about-us">
                 <a>About Us</a>
               </Link>
             </li>
-            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[18px] sm:text-[23px] 2xl:text-[30px] px-[5px] 2xl:px-[8px] py-[20px] xl:py-[50px]">
+            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[16px] sm:text-[18px] 2xl:text-[20px]  2xl:px-[8px] py-[15px] xl:py-[30px]">
               <Link href="/about-us/#join_team">
                 <a>Our Team</a>
               </Link>
             </li>
-            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[18px] sm:text-[23px] 2xl:text-[30px] px-[5px] 2xl:px-[8px] py-[20px] xl:py-[50px]">
+            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[16px] sm:text-[18px] 2xl:text-[20px]  2xl:px-[8px] py-[15px] xl:py-[30px]">
               <Link href="/services">
                 <a>Services</a>
               </Link>
             </li>
-            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[18px] sm:text-[23px] 2xl:text-[30px] px-[5px] 2xl:px-[8px] py-[20px] xl:py-[50px]">
+            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[16px] sm:text-[18px] 2xl:text-[20px]  2xl:px-[8px] py-[15px] xl:py-[30px]">
               <Link href="/programs">
                 <a>Programs</a>
               </Link>
             </li>
-            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[18px] sm:text-[23px] 2xl:text-[30px] px-[5px] 2xl:px-[8px] py-[20px] xl:py-[50px]">
+            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[16px] sm:text-[18px] 2xl:text-[20px]  2xl:px-[8px] py-[15px] xl:py-[30px]">
               <Link href="/#faq">
                 <a >FAQs</a>
               </Link>
             </li>
-            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[18px] sm:text-[23px] 2xl:text-[30px] px-[5px] 2xl:px-[8px] py-[20px] xl:py-[50px]">
+            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[16px] sm:text-[18px] 2xl:text-[20px]  2xl:px-[8px] py-[15px] xl:py-[30px]">
               <Link href="/contact">
-                <a className="bg-[#AE8B5C] text-[#fff] rounded-[50px] px-[53px] py-[22px] hover:opacity-[.8]">Get Started</a>
+                <a className="bg-[#AE8B5C] text-[#fff] rounded-[50px] px-[40px] py-[16px] hover:opacity-[.8]">Get Started</a>
              </Link>
             </li>
           </ul>
