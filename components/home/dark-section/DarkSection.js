@@ -24,9 +24,9 @@ const DarkSection = () => {
         <div className="px-0 sm:px-[5%] md:px-[0] xl:px-[5%]">
           <div className="flex flex-col lg:flex-row">
             <h2 className="fpr text-[32px] md:text-[50px] sc1500:text-[70px] text-[#fff] leading-[32px] md:leading-[50px] sc1500:leading-[70px] min-w-[100%] md:min-w-[450px]">
-              What makes us different?
+              What makes <br /> us different?
             </h2>
-            <p className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[36px] text-[#fff] pl-0 lg:pl-[5%] pt-[16px] lg:pt-0">
+            <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] pl-0 lg:pl-[5%] pt-[16px] lg:pt-0">
               Coaching is another form of support for people that feel stuck in
               life, but don’t have a clinical illness. And Unlike traditional
               therapy, coaching is a more direct, goal-oriented approach to mental
@@ -43,18 +43,18 @@ const DarkSection = () => {
                 <Image src={bulb} alt="bulb" />
               </div>
               <div>
-                <h6 className="fgr text-[16px] md:text-[36px] leading-[26px] md:leading-[36px] font-[600] text-[#fff]">
+                <h6 className="fgr text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] font-[600] text-[#fff]">
                   Modern Coaching
                 </h6>
                 <ul>
-                  <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[36px] text-[#fff] py-0 md:py-[6px] leading-[20px] md:leading-[28px]">
-                    <BsFillCheckCircleFill className="mt-[-3px] md:mt-0 text-[13px] md:text-[28px] lg:text-[18px] xl:text-[28px] text-[#fff] inline pr-[1px]" /> Action and goal-oreinted
+                  <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
+                    <BsFillCheckCircleFill className="mt-[-3px] md:mt-0 text-[13px] md:text-[15px] lg:text-[18px]  text-[#fff] inline pr-[1px]" /> Action and goal-oreinted
                   </li>
-                  <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[36px] text-[#fff] py-0 md:py-[6px] leading-[20px] md:leading-[28px]">
-                    <BsFillCheckCircleFill className="mt-[-3px] md:mt-0 text-[13px] md:text-[28px] lg:text-[18px] xl:text-[28px] text-[#fff] inline pr-[1px]" /> Forward looking
+                  <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
+                    <BsFillCheckCircleFill className="mt-[-3px] md:mt-0 text-[13px] md:text-[15px] lg:text-[18px]  text-[#fff] inline pr-[1px]" /> Forward looking
                   </li>
-                  <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[36px] text-[#fff] py-0 md:py-[6px] leading-[20px] md:leading-[28px]">
-                    <BsFillCheckCircleFill className="mt-[-3px] md:mt-0 text-[13px] md:text-[28px] lg:text-[18px] xl:text-[28px] text-[#fff] inline pr-[1px]" /> Tailored one-on-one approach
+                  <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
+                    <BsFillCheckCircleFill className="mt-[-3px] md:mt-0 text-[13px] md:text-[15px] lg:text-[18px]  text-[#fff] inline pr-[1px]" /> Tailored one-on-one approach
                   </li>
                 </ul>
               </div>
@@ -67,19 +67,19 @@ const DarkSection = () => {
                 <Image src={clipboard} alt="clipboard" />
               </div>
               <div>
-                <h6 className="fgr text-[16px] md:text-[36px] leading-[26px] md:leading-[36px] font-[600] text-[#fff]">
+                <h6 className="fgr text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] font-[600] text-[#fff]">
                   Traditional Therapy
                 </h6>
 
                 <ul>
-                  <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[36px] text-[#fff] py-0 md:py-[6px] leading-[20px] md:leading-[28px]">
-                    <RiCloseCircleFill className="mt-[-3px] md:mt-0 text-[16px] md:text-[32px] lg:text-[22px] xl:text-[32px] text-[#fff] inline pr-[2px]" /> Analytical and introspective
+                  <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
+                    <RiCloseCircleFill className="mt-[-3px] md:mt-0 text-[16px] md:text-[18px] lg:text-[22px]  text-[#fff] inline pr-[2px]" /> Analytical and introspective
                   </li>
-                  <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[36px] text-[#fff] py-0 md:py-[6px] leading-[20px] md:leading-[28px]">
-                    <RiCloseCircleFill className="mt-[-3px] md:mt-0 text-[16px] md:text-[32px] lg:text-[22px] xl:text-[32px] text-[#fff] inline pr-[2px]" /> Slow-paced and long-term
+                  <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
+                    <RiCloseCircleFill className="mt-[-3px] md:mt-0 text-[16px] md:text-[18px] lg:text-[22px]  text-[#fff] inline pr-[2px]" /> Slow-paced and long-term
                   </li>
-                  <li className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[36px] text-[#fff] py-0 md:py-[6px] leading-[20px] md:leading-[28px]">
-                    <RiCloseCircleFill className="mt-[-3px] md:mt-0 text-[16px] md:text-[32px] lg:text-[22px] xl:text-[32px] text-[#fff] inline pr-[2px]" /> Focus more on the past to
+                  <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
+                    <RiCloseCircleFill className="mt-[-3px] md:mt-0 text-[16px] md:text-[18px] lg:text-[22px]  text-[#fff] inline pr-[2px]" /> Focus more on the past to
                     <br /> resolve current challenges
                   </li>
                 </ul>
@@ -92,12 +92,12 @@ const DarkSection = () => {
           <div className="flex flex-wrap justify-center items-center gap-x-[0] md:gap-x-[5%] gap-y-[26px] md:gap-y-[50px]">
             <div className="w-[100%] md:w-[47%] flex items-start">
               {/* <div className="min-w-[70px] min-h-[70px] max-h-[70px] bg-pink-600 opacity-[.5] mr-[10px]"></div> */}
-              <div className='min-w-[27px] md:min-w-[60px] w-[27px] md:w-[60px] min-h-[27px] md:min-h-[60px] h-[27px] md:h-[60px] mt-[10px] mr-[10px]'>              <Image src={person} alt="person" /></div>
+              <div className='min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] mt-[10px] mr-[10px]'>              <Image src={person} alt="person" /></div>
               <div>
-                <h4 className="fgb text-[16px] md:text-[36px] leading-[16px] md:leading-[36px] text-[#fff]">
+                <h4 className="fgb text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] text-[#fff] pb-[5px]">
                   Individual Coaching
                 </h4>
-                <p className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[36px] text-[#fff]">
+                <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
                   One-on-one coaching to help build self-confidence, improve
                   relationships, support careers, manage anxiety, and achieve your
                   personal goals.
@@ -110,12 +110,12 @@ const DarkSection = () => {
 
             <div className="w-[100%] md:w-[47%] flex items-start">
               {/* <div className="min-w-[70px] min-h-[70px] max-h-[70px] bg-pink-600 opacity-[.5] mr-[10px]"></div> */}
-              <div className='min-w-[27px] md:min-w-[60px] w-[27px] md:w-[60px] min-h-[27px] md:min-h-[60px] h-[27px] md:h-[60px] mt-[10px] mr-[10px]'>              <Image src={ring} alt="image" /></div>
+              <div className='min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] mt-[10px] mr-[10px]'>              <Image src={ring} alt="image" /></div>
               <div>
-                <h4 className="fgb text-[16px] md:text-[36px] leading-[16px] md:leading-[36px] text-[#fff]">
+                <h4 className="fgb text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] text-[#fff] pb-[5px]">
                   Premarital Coaching
                 </h4>
-                <p className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[36px] text-[#fff]">
+                <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
                   Assess your compatibility and get a better understanding of what
                   constitutes an ideal Islamic marriage.
                   <Link href="/premarital">
@@ -127,10 +127,10 @@ const DarkSection = () => {
 
             <div className="w-[100%] md:w-[47%] flex items-start">
               {/* <div className="min-w-[70px] min-h-[70px] max-h-[70px] bg-pink-600 opacity-[.5] mr-[10px]"></div> */}
-              <div className='min-w-[27px] md:min-w-[60px] w-[27px] md:w-[60px] min-h-[27px] md:min-h-[60px] h-[27px] md:h-[60px] mt-[10px] mr-[10px]'><Image src={heart} alt="heart" /></div>
+              <div className='min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] mt-[10px] mr-[10px]'><Image src={heart} alt="heart" /></div>
               <div>
-                <h4 className="fgb text-[16px] md:text-[36px] leading-[16px] md:leading-[36px] text-[#fff]">Marital Coaching</h4>
-                <p className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[36px] text-[#fff]">
+                <h4 className="fgb text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] text-[#fff] pb-[5px]">Marital Coaching</h4>
+                <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
                   By understanding your partner better, the easier it’ll be to
                   find solutions to conflicts. Learn strategies to communicate and
                   resolve conflicts more effectively.
@@ -143,12 +143,12 @@ const DarkSection = () => {
 
             <div className="w-[100%] md:w-[47%] flex items-start">
               {/* <div className="min-w-[70px] min-h-[70px] max-h-[70px] bg-pink-600 opacity-[.5] mr-[10px]"></div> */}
-              <div className='min-w-[27px] md:min-w-[60px] w-[27px] md:w-[60px] min-h-[27px] md:min-h-[60px] h-[27px] md:h-[60px] mt-[10px] mr-[10px]'>              <Image src={mosque} alt="mosque" /></div>
+              <div className='min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] mt-[10px] mr-[10px]'>              <Image src={mosque} alt="mosque" /></div>
               <div>
-                <h4 className="fgb text-[16px] md:text-[36px] leading-[16px] md:leading-[36px] text-[#fff]">
+                <h4 className="fgb text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] text-[#fff] pb-[5px]">
                   Religious Consulting
                 </h4>
-                <p className="fgr text-[12px] md:text-[24px] leading-[16px] md:leading-[36px] text-[#fff]">
+                <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
                   Designed for either individuals or couples, speak directly to
                   Islamic scholars about any faith-based concerns that may be
                   troubling you.

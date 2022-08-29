@@ -21,14 +21,6 @@ const coaches = [{
     email: 'farhan.ahmed@ihsancoaching.com',
 },
 {
-    profileImg: person2,
-    name: 'Maria Mir',
-    slugName: 'Maria_Mir',
-    designation: ' Coach',
-    status: 'Masters in Clinical Psychology',
-    email: 'maria.mir@ihsancoaching.com',
-},
-{
     profileImg: person3,
     name: 'Rehena Rana',
     slugName: 'Rehena_Rana',
@@ -84,20 +76,20 @@ const religiousConsultants = [{
 const Team = () => {
     return (
         <section id='join_team' className='pb-[20px] md:pb-[50px]'>
-            <div className="min-h-[auto] md:min-h-[620px] flex items-center relative">
+            <div className="min-h-[auto] md:min-h-[480px] flex items-center relative">
                 <div className='absolute z-[-1] top-0 w-full lg:w-[48%]'>
                     <Image src={meeting} />
                 </div>
                 <div className='myContainer flex justify-end items-end'>
-                    <div className='w-full lg:w-[50%] pl-0 lg:pl-[3.5%] pr-0 lg:pr-[3%]   pt-[80%] sm:pt-[75%] lg:pt-[280px] lg:pt-0'>
-                        <h2 className='fpr text-[32px] md:text-[75px] sc1500:text-[100px] text-[#0F2E3C] leading-[32px] md:leading-[75px] sc1500:leading-[100px]'>Meet the team</h2>
-                        <p className='fgr text-[12px] md:text-[24px] text-[#555] leading-[16px] md:leading-[36px] mt-[10px] md:mt-[32px]'> Our secret to success is an exceptional and diverse team, all of whom come from diverse and unique backgrounds. Our coaches are licensed therapists with extensive experience offering culturally and spiritually responsive services.</p>
+                    <div className='w-full lg:w-[50%] pl-0 lg:pl-[3.5%] pr-0 lg:pr-[3%]   pt-[80%] sm:pt-[75%] lg:pt-[0]  '>
+                        <h2 className='fpr text-[32px] md:text-[63px]   text-[#0F2E3C] leading-[32px] md:leading-[63px]  '>Meet the team</h2>
+                        <p className='fgr text-[12px] md:text-[16px] text-[#555] leading-[16px] md:leading-[26px] mt-[10px] md:mt-[26px]'> Our secret to success is an exceptional and diverse team, all of whom come from diverse and unique backgrounds. Our coaches are licensed therapists with extensive experience offering culturally and spiritually responsive services.</p>
                     </div>
                 </div>
             </div>
             <div className='myContainer pt-[50px] md:pt-[20px] lg:pt-0'>
-                <h2 className='fpr text-[28px] md:text-[58px] sc1500px:text-[68px] text-[#0F2E3C] leading-[24px] md:leading-[70px] sc1500:leading-[100px]'>Coaches</h2>
-                <div className='flex flex-col md:flex-row flex-wrap md:gap-x-[4%] lg:gap-x-[2.5%] gap-y-[50px] mt-[20px] md:mt-[55px] mb-[30px] md:mb-[80px]'>
+                <h2 className='fpr text-[28px] md:text-[40px]  text-[#0F2E3C] leading-[24px] md:leading-[40px] '>Coaches</h2>
+                <div className='flex flex-col md:flex-row flex-wrap md:gap-x-[4%] lg:gap-x-[2.5%] gap-y-[50px] mt-[20px] md:mt-[30px] mb-[30px] md:mb-[50px]'>
                     {coaches.map((value) => {
                         return (
                            <>
@@ -106,8 +98,10 @@ const Team = () => {
                         )
                     })}
                 </div>
-                <h2 className='fpr text-[28px] md:text-[58px] sc1500px:text-[68px] text-[#0F2E3C] leading-[24px] md:leading-[70px] sc1500:leading-[100px]'>  <Link href='/religious'>Religious Consultants</Link></h2>
-                <div className='flex flex-col md:flex-row flex-wrap gap-x-[2.5%] gap-y-[50px] mt-[20px] md:mt-[55px] mb-[30px] md:mb-[80px]'>
+                <h2 className='fpr text-[28px] md:text-[40px]  text-[#0F2E3C] leading-[24px] md:leading-[40px] '>
+                      <Link href='/religious'>Religious Consultants</Link>
+                      </h2>
+                      <div className='flex flex-col md:flex-row flex-wrap md:gap-x-[4%] lg:gap-x-[2.5%] gap-y-[50px] mt-[20px] md:mt-[30px] mb-[30px] md:mb-[50px]'>
                     {religiousConsultants.map((valu) => {
                         return (
                             <ProfileCard data={valu} key={valu.profileImg} />

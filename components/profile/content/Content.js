@@ -1,43 +1,78 @@
+import Link from "next/link";
 import Image from "next/image";
-import pattern from '../../../assets/images/pattern.png';
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
-import hands from '../../../assets/images/services/hands.svg';
 
-const Content = ({ data, pb }) => { 
-  console.log(data)
+const Content = ({ data, pb }) => {
+  console.log("data?.profileImg", data?.profileImg);
+  console.log("data?.profileImg?.src", data?.profileImg?.src);
   return (
-    <section className={`w-full pt-[40px] md:pt-[140px] lg:pt-[100px] pb-[30px] md:pb-[70px] bg-[#fff] relativ e ${pb ? "pb-[300px]" : ""}`}>
-      <div className="myContainer relative">
-
-
-        <div className='w-full'>
-          <div className='max-w-[300px] max-h-[300px] mx-auto left-0 after:w-[50px] md:after:w-[100px] relative after:h-[50px] md:after:h-[100px] after:bg-[#0F2E3C] after:rounded-[100px] after:right-[-20px] after:bottom-[-10px] after:absolute after:z-[-1] z-[2]
-        before:w-[75px] md:before:w-[125px] relative before:h-[75px] md:before:h-[125px] before:bg-[#0F2E3C] before:rounded-[125px] before:left-[0] before:top-[-40px] sm:before:top-[-30px] before:absolute
-        '>
-            <div className="rounded-[250px] overflow-hidden ">
-            {data?.profileImg &&  <Image src={data?.profileImg?.src} width={data?.profileImg?.width} height={data?.profileImg?.height}/>
-           } </div>
-          </div>
-          <h1 className="mx-auto text-center fpr text-[32px] md:text-[60px] leading-[32px] md:leading-[100px]  text-[#0F2E3C] pt-[10px] md:pt-[40px]">
-            {data.name}
-          </h1>
-        </div>
-
-
-
-      </div>
+    <section
+      className={`w-full pt-[40px] md:pt-[50px] pb-[30px] md:pb-[110px] bg-[#fff] relativ e ${
+        pb ? "pb-[300px]" : ""
+      }`}
+    >
       <div className="myContainer flex flex-col xl:flex-row justify-end relative">
+        <div className="flex flex-col-reverse lg:flex-row">
+          <div className="w-full lg:w-[50%] pt-[30px] md:pt-[50px] lg:pt-0">
+            <h1 className="fpr text-[32px] md:text-[60px] leading-[32px] md:leading-[70px]  text-[#182657] pt-[10px] md:pt-[40px]">
+              {data.name}
+            </h1>
+            <h5 className="fgr text-[22px] md:text-[26px] leading-[22px] md:leading-[26px]  text-[#555555]">
+              {data.designation}
+            </h5>
 
-      
-        <div className="w-full xl:w-[100%]   md:pt-[680px] xl:pt-0">
-           
-          <p className="text-[12px] md:text-[24px] leading-[16px] md:leading-[36px] text-[#555555] pt-[15px] md:pt-[35px]">
-         {data.paragraph1}
-          </p>
-          <p className="text-[12px] md:text-[24px] leading-[16px] md:leading-[36px] text-[#555555] pt-[35px] pb-[35px]">
-          {data.paragraph2}
-          </p>
-           
+            <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[24px] text-[#555555] pt-[15px] md:pt-[20px]">
+              {data?.paragraph1}
+            </p>
+            <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[24px] text-[#555555] pt-[15px] md:pt-[20px]">
+              {data?.paragraph2}
+            </p>
+            <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[24px] text-[#555555] pt-[15px] md:pt-[20px]">
+              {data?.paragraph3}
+            </p>
+          </div>
+
+          <div className="w-full lg:w-[50%] pl-[0] lg:pl-[88px]">
+            {/* <div className="rounded-[250px] overflow-hidden ">
+            {data?.profileImg &&  <Image src={data?.profileImg?.src} width={data?.profileImg?.width} height={data?.profileImg?.height}/>
+           } </div> */}
+
+            <div className="home-hero-img mt-0 lg:mt-[80px] flex justify-center lg:block">
+              <div className="img_contain er">
+                <span className="inline-block relative z-[3] ">
+                  <Image src={data?.profileImg} />
+                  <div className="before:z-[-1] before:w-[58px] md:before:w-[160px] relative before:h-[58px] md:before:h-[160px] before:bg-[#AE8B5C] before:rounded-[100px] before:right-[0] md:before:right-[-5%] lg:before:right-[-35px] before:bottom-0 md:before:bottom-[-50px] before:absolute"></div>
+                </span>
+              </div>
+            </div>
+
+            <div className="flex flex-row lg:flex-col sc1350:flex-row     items-center   md:items-start    sc1350:items-center pt-[20px] md:pt-[60px] gap-y-[0] lg:gap-y-[20px] sc1350:gap-y-[0]">
+              <div className="w-ful l lg: w-[50%]      md:w-[100%]    sc1350:w-[50%]">
+                <h6 className="fgr font-[600] text-[#292929] text-[13px] leading-[13px] md:text-[18px] md:leading-[28px] pb-[7px]">
+                  Available for:
+                </h6>
+                <p className="fgr text-[12px] md:text-[18px] leading-[16px] md:leading-[28px] text-[#555555]">
+                  Individual Coaching
+                </p>
+                <p className="fgr text-[12px] md:text-[18px] leading-[16px] md:leading-[28px] text-[#555555]">
+                  Couples Coaching
+                </p>
+                <p className="fgr text-[12px] md:text-[18px] leading-[16px] md:leading-[28px] text-[#555555]">
+                  Premarital Coaching
+                </p>
+              </div>
+              <div className="w-ful l lg:  w-[50%]      md:w-[100%]    sc1350:w-[50%] flex justify-end lg:justify-start">
+                <Link href="/consultation">
+                  <a>
+                    <button className="fgr w-[120px] md:w-[210px] h-[28px] md:h-[50px] border-[1px] md:border-[3px] border-[#FAF7F2] flex justify-between items-center bg-[#0F2E3C] text-[12px] md:text-[16px] text-[#fff] rounded-[50px] px-[11px] md:px-[30px] py-[7px] md:py-[10px] hover:text-[#555555] hover:bg-[#fff] group">
+                      Appointment
+                      <BsFillArrowRightCircleFill className="text-[#fff] text-[12px] md:text-[20px] group-hover:text-[#555]" />
+                    </button>
+                  </a>
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -45,4 +80,3 @@ const Content = ({ data, pb }) => {
 };
 
 export default Content;
-
