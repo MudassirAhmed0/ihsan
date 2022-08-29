@@ -5,7 +5,7 @@ import Hero from "../../components/book-appointment/hero/Hero";
 // import BrownSection from "../../components/book-appointment/brown-section/BrownSection";
 import hands from "../../assets/images/services/hands.svg";
 import engagement from "../../assets/images/services/engagement.svg";
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "react"; 
 import teacher1 from "../../assets/images/appointment/image1.png"; 
 
 const heroContent = {
