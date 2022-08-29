@@ -6,13 +6,13 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
 const Footer = () => {
   return (
     <>
-      <footer className={`bg-[#0F2E3C] pt-[42px] md:pt-[97px]`}>
+      <footer className={`bg-[#0F2E3C] pt-[32px] md:pt-[50px]`}>
         <div className="pb-0">
           <div className="myContainer-footer">
-            <h1 className="fpr text-[32px] md:text-[55px]  text-[#fff] leading-[32px] md:leading-[55px]   max-w-[800px] mx-auto text-center">
+            <h1 className="fpr text-[22px] md:text-[35px]  text-[#fff] leading-[32px] md:leading-[55px]   max-w-[800px] mx-auto text-center">
               Get started with <br /> Ihsan Coaching today
             </h1>
-            <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[22px] text-[#fff] pt-[21px] md:pt-[30px] pb-[21px] md:pb-[46px] max-w-[690px] mx-auto text-center">
+            <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[22px] text-[#fff] pt-[16px] md:pt-[20px] pb-[16px] md:pb-[26px] max-w-[690px] mx-auto text-center">
               Let’s take the first step towards better health and well-being,
               together. Get in touch to learn more about coaches or services, or
               to set up an initial session that fits your schedule.
