@@ -2,44 +2,43 @@ import Link from "next/link";
 import Image from "next/image";
 import { RiCloseCircleFill } from "react-icons/ri";
 import { BsFillCheckCircleFill } from "react-icons/bs";
-import bulb from '../../../assets/images/home/bulb.svg';
-import ring from '../../../assets/images/home/ring.svg';
-import pattern from '../../../assets/images/pattern.png';
-import heart from '../../../assets/images/home/heart.svg';
-import mosque from '../../../assets/images/home/mosque.svg';
-import person from '../../../assets/images/home/person.svg';
-import clipboard from '../../../assets/images/home/clipboard.svg';
+import bulb from "../../../assets/images/home/bulb.svg";
+import ring from "../../../assets/images/home/ring.svg";
+import pattern from "../../../assets/images/pattern.png";
+import heart from "../../../assets/images/home/heart.svg";
+import mosque from "../../../assets/images/home/mosque.svg";
+import person from "../../../assets/images/home/person.svg";
+import clipboard from "../../../assets/images/home/clipboard.svg";
 
 const DarkSection = () => {
   return (
     <section className="bg-[#0F2E3C] text-[#fff] pt-[44px] md:pt-[94px] pb-[58px] md:pb-[110px] relative overflow-hidden">
-
-      <div className='absolute left-0 right-0 top-0 w-full h-[100%] overlay-img'>person
-        <Image src={pattern} className='scale-[1.5] ' />
+      <div className="absolute left-0 right-0 top-0 w-full h-[100%] overlay-img">
+        person
+        <Image src={pattern} className="scale-[1.2] " />
       </div>
-      <div className='absolute left-0 right-0 top-0 w-full h-[100%] bg-[#0F2E3C] opacity-[.9]'>
-      </div>
+      <div className="absolute left-0 right-0 top-0 w-full h-[100%] bg-[#0F2E3C] opacity-[.94]"></div>
 
       <div className="myContainer relative z-[2]">
         <div className="px-0 sm:px-[5%] md:px-[0] xl:px-[5%]">
           <div className="flex flex-col lg:flex-row">
-            <h2 className="fpr text-[32px] md:text-[50px] sc1500:text-[70px] text-[#fff] leading-[32px] md:leading-[50px] sc1500:leading-[70px] min-w-[100%] md:min-w-[450px]">
+            <h2 className="fpr text-[32px] md:text-[50px] sc1500:text-[70px] text-[#fff] leading-[32px] md:leading-[50px] sc1500:leading-[70px] min-w-[100%] md:min-w-[350px]">
               What makes <br /> us different?
             </h2>
-            <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] pl-0 lg:pl-[5%] pt-[16px] lg:pt-0">
+            <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[28px] text-[#fff] pl-0 lg:pl-[5%] pt-[16px] lg:pt-0">
               Coaching is another form of support for people that feel stuck in
               life, but don’t have a clinical illness. And Unlike traditional
-              therapy, coaching is a more direct, goal-oriented approach to mental
-              health that goes beyond the emotional resolution of past pain or
-              trauma. Our licensed therapists serve as coaches to help you
-              understand your current life experiences and belief systems. By
-              laying the groundwork of where you are now and where you want to be,
-              we can get you feeling you again, faster.
+              therapy, coaching is a more direct, goal-oriented approach to
+              mental health that goes beyond the emotional resolution of past
+              pain or trauma. Our licensed therapists serve as coaches to help
+              you understand your current life experiences and belief systems.
+              By laying the groundwork of where you are now and where you want
+              to be, we can get you feeling you again, faster.
             </p>
           </div>
-          <div className="flex flex-col lg:flex-row pt-[60px] pb-[50px] md:py-[130px] items-center lg:items-end">
+          <div className="flex flex-col lg:flex-row pt-[60px] pb-[50px] md:py-[100px] items-center lg:items-end">
             <div className="flex flex-[100%] lg:flex-[47%]">
-              <div className="mr-[20px]   sc1440:w-[auto] w-[52px] md:w-[150px] lg:md:w-[80px] xl:w-[150px] h-[53px] md:w-[auto]">
+              <div className="mr-[20px]   sc1440:w-[auto] w-[52px] md:w-[150px] lg:md:w-[80px] xl:w-[150px] h-[53px]">
                 <Image src={bulb} alt="bulb" />
               </div>
               <div>
@@ -48,13 +47,16 @@ const DarkSection = () => {
                 </h6>
                 <ul>
                   <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
-                    <BsFillCheckCircleFill className="mt-[-3px] md:mt-0 text-[13px] md:text-[15px] lg:text-[18px]  text-[#fff] inline pr-[1px]" /> Action and goal-oreinted
+                    <BsFillCheckCircleFill className="mt-[-3px] md:mt-0 text-[13px] md:text-[15px] lg:text-[18px]  text-[#fff] inline pr-[1px]" />
+                    Action and goal-oreinted
                   </li>
                   <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
-                    <BsFillCheckCircleFill className="mt-[-3px] md:mt-0 text-[13px] md:text-[15px] lg:text-[18px]  text-[#fff] inline pr-[1px]" /> Forward looking
+                    <BsFillCheckCircleFill className="mt-[-3px] md:mt-0 text-[13px] md:text-[15px] lg:text-[18px]  text-[#fff] inline pr-[1px]" />
+                    Forward looking
                   </li>
                   <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
-                    <BsFillCheckCircleFill className="mt-[-3px] md:mt-0 text-[13px] md:text-[15px] lg:text-[18px]  text-[#fff] inline pr-[1px]" /> Tailored one-on-one approach
+                    <BsFillCheckCircleFill className="mt-[-3px] md:mt-0 text-[13px] md:text-[15px] lg:text-[18px]  text-[#fff] inline pr-[1px]" />
+                    Tailored one-on-one approach
                   </li>
                 </ul>
               </div>
@@ -63,7 +65,7 @@ const DarkSection = () => {
               vs
             </p>
             <div className="flex flex-[100%] lg:flex-[47%]">
-              <div className="mr-[20px] sc1440:w-[auto] w-[37px] md:w-[90px] lg:md:w-[60px] xl:w-[90px] h-[69px] md:w-[auto]">
+              <div className="mr-[20px] sc1440:w-[auto] w-[37px] md:w-[150px] lg:md:min-w-[60px] xl:w-[150px] h-[69px] md:px-[35px]">
                 <Image src={clipboard} alt="clipboard" />
               </div>
               <div>
@@ -73,34 +75,39 @@ const DarkSection = () => {
 
                 <ul>
                   <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
-                    <RiCloseCircleFill className="mt-[-3px] md:mt-0 text-[16px] md:text-[18px] lg:text-[22px]  text-[#fff] inline pr-[2px]" /> Analytical and introspective
+                    <RiCloseCircleFill className="mt-[-3px] md:mt-0 text-[16px] md:text-[18px] lg:text-[22px]  text-[#fff] inline pr-[2px]" />
+                    Analytical and introspective
                   </li>
                   <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
-                    <RiCloseCircleFill className="mt-[-3px] md:mt-0 text-[16px] md:text-[18px] lg:text-[22px]  text-[#fff] inline pr-[2px]" /> Slow-paced and long-term
+                    <RiCloseCircleFill className="mt-[-3px] md:mt-0 text-[16px] md:text-[18px] lg:text-[22px]  text-[#fff] inline pr-[2px]" />
+                    Slow-paced and long-term
                   </li>
                   <li className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff] py-0 md:py-[3px] leading-[20px] md:leading-[28px]">
-                    <RiCloseCircleFill className="mt-[-3px] md:mt-0 text-[16px] md:text-[18px] lg:text-[22px]  text-[#fff] inline pr-[2px]" /> Focus more on the past to
+                    <RiCloseCircleFill className="mt-[-3px] md:mt-0 text-[16px] md:text-[18px] lg:text-[22px]  text-[#fff] inline pr-[2px]" />
+                    Focus more on the past to
                     <br /> resolve current challenges
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <h2 className="fpr text-[#fff] text-[32px] md:text-[60px] sc1500:text-[85px] text-center pb-[27px] md:pb-[60px]">
+          <h2 className="fpr text-[#fff] text-[32px] md:text-[60px] sc1500:text-[90px] text-center pb-[27px] md:pb-[60px]">
             Our services
           </h2>
           <div className="flex flex-wrap justify-center items-center gap-x-[0] md:gap-x-[5%] gap-y-[26px] md:gap-y-[50px]">
             <div className="w-[100%] md:w-[47%] flex items-start">
               {/* <div className="min-w-[70px] min-h-[70px] max-h-[70px] bg-pink-600 opacity-[.5] mr-[10px]"></div> */}
-              <div className='min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] mt-[10px] mr-[10px]'>              <Image src={person} alt="person" /></div>
+              <div className="min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] mt-[10px] mr-[10px]">
+                <Image src={person} alt="person" />
+              </div>
               <div>
                 <h4 className="fgb text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] text-[#fff] pb-[5px]">
                   Individual Coaching
                 </h4>
                 <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
                   One-on-one coaching to help build self-confidence, improve
-                  relationships, support careers, manage anxiety, and achieve your
-                  personal goals.
+                  relationships, support careers, manage anxiety, and achieve
+                  your personal goals.
                   <Link href="/individual">
                     <a className="block underline cursor-pointer">Learn more</a>
                   </Link>
@@ -110,14 +117,17 @@ const DarkSection = () => {
 
             <div className="w-[100%] md:w-[47%] flex items-start">
               {/* <div className="min-w-[70px] min-h-[70px] max-h-[70px] bg-pink-600 opacity-[.5] mr-[10px]"></div> */}
-              <div className='min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] mt-[10px] mr-[10px]'>              <Image src={ring} alt="image" /></div>
+              <div className="min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] mt-[10px] mr-[10px]">
+                
+                <Image src={ring} alt="image" />
+              </div>
               <div>
                 <h4 className="fgb text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] text-[#fff] pb-[5px]">
                   Premarital Coaching
                 </h4>
                 <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
-                  Assess your compatibility and get a better understanding of what
-                  constitutes an ideal Islamic marriage.
+                  Assess your compatibility and get a better understanding of
+                  what constitutes an ideal Islamic marriage.
                   <Link href="/premarital">
                     <a className="block underline cursor-pointer">Learn more</a>
                   </Link>
@@ -127,15 +137,19 @@ const DarkSection = () => {
 
             <div className="w-[100%] md:w-[47%] flex items-start">
               {/* <div className="min-w-[70px] min-h-[70px] max-h-[70px] bg-pink-600 opacity-[.5] mr-[10px]"></div> */}
-              <div className='min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] mt-[10px] mr-[10px]'><Image src={heart} alt="heart" /></div>
+              <div className="min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] mt-[10px] mr-[10px]">
+                <Image src={heart} alt="heart" />
+              </div>
               <div>
-                <h4 className="fgb text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] text-[#fff] pb-[5px]">Marital Coaching</h4>
+                <h4 className="fgb text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] text-[#fff] pb-[5px]">
+                  Marital Coaching
+                </h4>
                 <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
                   By understanding your partner better, the easier it’ll be to
-                  find solutions to conflicts. Learn strategies to communicate and
-                  resolve conflicts more effectively.
-                   <Link href="/marital">
-                  <a className="block underline cursor-pointer">Learn more</a>
+                  find solutions to conflicts. Learn strategies to communicate
+                  and resolve conflicts more effectively.
+                  <Link href="/marital">
+                    <a className="block underline cursor-pointer">Learn more</a>
                   </Link>
                 </p>
               </div>
@@ -143,7 +157,10 @@ const DarkSection = () => {
 
             <div className="w-[100%] md:w-[47%] flex items-start">
               {/* <div className="min-w-[70px] min-h-[70px] max-h-[70px] bg-pink-600 opacity-[.5] mr-[10px]"></div> */}
-              <div className='min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] mt-[10px] mr-[10px]'>              <Image src={mosque} alt="mosque" /></div>
+              <div className="min-w-[27px] md:min-w-[45px] w-[27px] md:w-[45px] min-h-[27px] md:min-h-[45px] h-[27px] md:h-[45px] mt-[10px] mr-[10px]">
+                
+                <Image src={mosque} alt="mosque" />
+              </div>
               <div>
                 <h4 className="fgb text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] text-[#fff] pb-[5px]">
                   Religious Consulting
@@ -152,9 +169,9 @@ const DarkSection = () => {
                   Designed for either individuals or couples, speak directly to
                   Islamic scholars about any faith-based concerns that may be
                   troubling you.
-                    <Link href="/religious">
-                  <a className="block underline cursor-pointer">Learn more</a>
-                    </Link>
+                  <Link href="/religious">
+                    <a className="block underline cursor-pointer">Learn more</a>
+                  </Link>
                 </p>
               </div>
             </div>

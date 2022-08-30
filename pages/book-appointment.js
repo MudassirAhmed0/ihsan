@@ -5,7 +5,8 @@ import Content from "../components/book-appointment/content/Content";
 import GrayDiv from "../components/book-appointment/gray-div/GrayDiv";
 
 const heroContent = {
-  title: " Premarital coaching",
+  title_part1: "Appointment scheduling ",
+  title_part2: "and rates",
   paragraph1:
     "Our one-on-one coaching services can help you build self-confidence, improve your relationships, support your career ambitions, or help you achieve your goals.",
 };

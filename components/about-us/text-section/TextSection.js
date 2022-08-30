@@ -9,10 +9,10 @@ const TextSection = () => {
     <section className="w-full pt-[37px] pb-[46px] md:py-[100px] bg-[#fff] relative overflow-hidden">
       <div className='myContainer'>
 
-        <div className='flex flex-col md:flex-row flex-wrap justify-between gap-y-[21px] md:gap-y-[80px] lg:gap-y-[140px] gap-x-0 md:gap-x-[3%]'>
+        <div className='flex flex-col md:flex-row flex-wrap justify-between gap-y-[21px] md:gap-y-[80px] lg:gap-y-[100px] gap-x-0 md:gap-x-[3%]'>
 
           <div className='w-full md:w-[48%] '>
-            <h1 className='fpr text-[#0F2E3C] text-[30px] md:text-[55px] sc1500:text-[100px] leading-[30px] md:leading-[55px] sc1500:leading-[100px] max-w-[633px]'>Our values <br /> and principals</h1>
+            <h1 className='fpr text-[#0F2E3C] text-[30px] md:text-[50px] xl:text-[70px]   leading-[30px] md:leading-[50px] xl:leading-[70px]  max-w-[633px]'>Our values <br /> and principals</h1>
           </div>
           <p className='w-full md:w-[48%] fgr text-[#555555] text-[12px] md:text-[16px] leading-[15px] md:leading-[26px] flex items-center'>From the services we provide to our corporate culture, our goal is for everything we do to live up to our core values and principles.</p>
 

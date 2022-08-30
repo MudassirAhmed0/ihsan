@@ -50,17 +50,17 @@ export default function Navigation() {
     <div>
       <div className="hidden lg:h-[30px] md:block h-[50px] bg-[#fff]">
         <ul className="myContainer flex justify-end items-center h-[100%]">
-          <li className="px-[12px]  text-[15px] fgr font-[600]">
+          <li className="px-[15px]  text-[15px] fgb">
             <Link href="/contact">Careers</Link>
           </li>
-          <li className="px-[12px]  text-[15px] fgr font-[600]">
+          <li className="px-[15px]  text-[15px] fgb">
             <Link href="/blogs">Blog</Link>
           </li>
-          <li className="px-[12px]  text-[15px] fgr font-[600]">
+          <li className="px-[15px]  text-[15px] fgb">
             <Link href="/contact">Contact</Link>
           </li>
-          <li className="px-[12px]  text-[15px] fgr font-[600]">
-            <Link href="#">Donations</Link>
+          <li className="px-[15px]  text-[15px] fgb">
+            <Link href="/donation">Donations</Link>
           </li>
           <li className="px-[0.5%]  text-[15px] fgr font-[600]">
             <Link href="https://www.instagram.com/ihsan_coaching/">
@@ -132,7 +132,7 @@ export default function Navigation() {
               </Link>
             </li>
             <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[12px] md:text-[16px] py-[15px] xl:py-[30px]">
-              <Link href="/contact">
+              <Link href="/book-appointment">
                 <a className="bg-[#AE8B5C] text-[#fff] rounded-[50px] px-[25px] py-[10px] hover:opacity-[.8]">
                   Get Started
                 </a>

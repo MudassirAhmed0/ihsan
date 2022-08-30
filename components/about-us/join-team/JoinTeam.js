@@ -29,7 +29,7 @@ const JoinTeam = () => {
       <div className="absolute left-0 right-0 top-0 w-full h-[100%] linear-gradient-3"></div>
       <div className="myContainer flex flex-col-reverse md:flex-row relative z-[1]">
         <div className="w-full md:w-[50%] pt-[5%] sm:pt-0 pr-0 md:pr-[25px]">
-          <h1 className="fpr text-[32px] md:text-[60px] 2xl:text-[100px] leading-[32px] md:leading-[60px]   text-[#0F2E3C] pb-[15px] md:pb-[20px]">
+          <h1 className="fpr text-[32px] md:text-[60px] 2xl:text-[70px] leading-[32px] md:leading-[60px]   text-[#0F2E3C] pb-[15px] md:pb-[20px]">
             Join our team
           </h1>
           <p className="text-[12px] md:text-[16px] leading-[18px] md:leading-[26px] text-[#292929] mb-[15px] md:mb-[25px]">

@@ -6,7 +6,7 @@ import hands from '../../../assets/images/services/hands.svg';
 
 const Content = ({ data, pb }) => {
   return (
-    <section className={`w-full pt-[40px] md:pt-[70px] pb-[30px] md:pb-[170px] bg-[#fff] relativ e ${pb ? "pb-[300px]" : ""}`}>
+    <section className={`w-full pt-[40px] md:pt-[70px] pb-[30px] md:pb-[20px] bg-[#fff] relativ e ${pb ? "pb-[300px]" : ""}`}>
       <div className="myContainer  ">
         <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] text-[#555555] pb-[20px] md:pb-[20px]">
           Whether you need solutions to ongoing problems, need direction in how to achieve your personal goals or just aren’t feeling quite like yourself, our individual coaching services are tailored to your needs.
@@ -27,7 +27,7 @@ const Content = ({ data, pb }) => {
         '><Image src={data.img} />
           </div>
         </div>
-        <div className="w-full xl:w-[50%] pt-[92%] sm:pt-[86%] md:pt-[680px] xl:pt-0">
+        <div className="w-full xl:w-[50%] pt-[98%] sm:pt-[86%] md:pt-[680px] xl:pt-[30px]">
           <h6 className="fgb text-[18px] md:text-[20px] leading-[18px] md:leading-[36px] text-[#555555]">
             Who is this for?
           </h6>

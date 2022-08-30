@@ -2,7 +2,6 @@ import Image from "next/image";
 import React, { useState } from "react";
 import Layout from "../components/layout/layout";
 import pattern from "../assets/images/pattern.png";
-import { FaEnvelope, FaPhoneAlt } from "react-icons/fa";
 
 export default function Consultation() {
   const [FirstName, setFirstName] = useState("");
@@ -30,13 +29,14 @@ export default function Consultation() {
 
   return (
     <Layout>
-      <section className="relative overflow-hidden md:pt-[70px]">
+      
+      <section className="relative overflow-hidden py-[40px] sm:[50px] md:py-[90px]">
         <div className='absolute left-0 right-0 top-0 w-full h-[100%]'>
           <div className='scale-[1.1]'><Image src={pattern} /></div>
         </div>
         <div className='absolute left-0 right-0 top-0 w-full h-[100%] linear-gradient-1'></div>
-        <div className="main__container relative z-[1]">
-          <div className="bg-[#F2F2F2 ] px-[42px] py-[50px] xl:p-[50px]  ">
+        <div className="myContainer relative z-[1]">
+          <div className="  ">
             <div className="lg:w-1/2">
               <h2 className="fpr text-[32px] md:text-[70px]   leading-[32px] md:leading-[60px]   text-[#0F2E3C]">
                 Request a<br /> consultation

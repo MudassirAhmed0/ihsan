@@ -11,7 +11,9 @@ const Hero = ({ data }) => {
       </div>
       <div className="myContainer flex flex-col justify-center relative z-[1]">
         <h1 className="fpr text-[35px] md:text-[60px]  leading-[35px] md:leading-[60px]  mx-auto text-[#0F2E3C] text-center max-w-[1374px] pt-[10px]">
-          {data.title}
+          {data.title_part1}
+         <br />
+         {data.title_part2}
         </h1>
         <p className="fgr text-[12px] md:text-[18px] leading-[16px] md:leading-[30px] text-[#555555] text-center max-w-[760px] mx-auto pt-[15px] md:pt-[20px]">
           {data.paragraph1}

@@ -4,7 +4,10 @@ const HeadingText = () => {
   return (
     <section className="pt-[40px] md:pt-[79px] pb-[43px] md:pb-[85px]">
       <div className="myContainer text-center">
-        <h2 className="fpr mb-[17px] md:mb-[49px] text-[25px] sm:text-[32px] md:text-[65px] text-[#0F2E3C]   mx-auto leading-[32px] md:leading-[65px]  ">Coaching through the<br /> lens of culture</h2>
+        <h2 className="fpr mb-[17px] md:mb-[49px] text-[25px] sm:text-[32px] md:text-[65px] text-[#0F2E3C]   mx-auto leading-[32px] md:leading-[65px]  ">
+          Coaching through the
+          <br /> lens of culture
+        </h2>
         <p className="fgr text-[#292929] text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] max-w-[885px] mx-auto">
           Being fully open and transparent with a coach or therapist is the only
           way to find the root of your problems. But that takes trust and an
@@ -21,11 +24,11 @@ const HeadingText = () => {
           religious consultations through an Islamic lens, respecting the unique
           juxtaposition of your culture and current situation.
         </p>
-        <a className="fgr block mx-auto w-[100px] md:w-[178px] h-[30px] md:h-[50px] bg-[#AE8B5C] text-[#fff] text-[12px] md:text-[16px] rounded-[50px] px-[18px] md:px-[30px] py-[6px] md:py-[13px] mt-[15px] md:mt-[52px] hover:opacity-[.8] cursor-pointer">
         <Link href="/contact">
-          Get Started
+          <a className="fgb block mx-auto w-[100px] md:w-[178px] h-[30px] md:h-[50px] bg-[#AE8B5C] text-[#fff] text-[12px] md:text-[16px] rounded-[50px] px-[18px] md:px-[30px] py-[6px] md:py-[13px] mt-[15px] md:mt-[40px] hover:opacity-[.8] cursor-pointer">
+            Get Started
+          </a>
         </Link>
-        </a>
       </div>
     </section>
   );

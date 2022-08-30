@@ -25,7 +25,7 @@ const Hero = () => {
               In Arabic, Ihsan means ‘perfection’ or ‘excellence’. It’s a matter
               of taking one’s inner faith, and showing it both in deeds and
               actions. It’s a sense of social responsibility, born from
-              religious convictions. It’s the Mulim responsibility to strive for
+              religious convictions. It’s the Muslim responsibility to strive for
               perfection, constituting the highest form of worship.
             </p>
             <p className="text-[12px] md:text-[18px] leading-[16px] md:leading-[28px] text-[#292929] mb-[15px] sm:mb-[18px]">

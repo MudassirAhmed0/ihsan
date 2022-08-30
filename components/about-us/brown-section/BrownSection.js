@@ -6,11 +6,11 @@ const BrownSection = () => {
   return (
     <section className="text-[#fff] pt-[50px] md:pt-[75px] pb-[50px] md:pb-[80px] relative overflow-hidden">
       <div className='absolute left-0 right-0 top-0 w-full h-[100%] overlay-img'>
-        <Image src={pattern} className='scale-[1.5] ' />
+        <Image src={pattern} className='scale-[1.5] ' />  
       </div>
       <div className='absolute left-0 right-0 top-0 w-full h-[100%] bg-[#AE8B5C] opacity-[.99]'></div>
       <div className="myContainer relative z-[2]">
-        <h1 className='fpr text-[30px] md:text-[50px] md:text-[70px] leading-[30px] md:leading-[50px] md:leading-[70px] text-center'>Our approach</h1>
+        <h1 className='fpr text-[30px] md:text-[60px] leading-[30px] md:leading-[60px]  text-center'>Our approach</h1>
         <p className='fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] max-w-[950px] text-center mx-auto pt-[20px] md:pt-[32px]'>
           With a unique understanding of the challenges Muslims may face in Western society, we’re able to offer tailored programs that bridge traditional coaching and Islamic consulting. And unlike traditional therapy, goal-oriented coaching is a more direct path to well being.
         </p>

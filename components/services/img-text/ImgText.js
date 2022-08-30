@@ -7,7 +7,7 @@ import hands from '../../../assets/images/services/hands.svg';
 const ImgText = ({ data, pb, flip }) => {
   return (
     <section className={`w-full bg-[#fff] ${pb ? "pt-[55px] md:pt-[145px] pb-[70px] xl:pb-[300px]" : "pt-[55px] md:pt-[145px] pb-[15px] xl:pb-[145px] "}`}>
-      <div className={`myContainer flex justify-end flex-col ${flip == true ? 'xl:flex-row-reverse' : 'xl:flex-row'} relative`}>
+      <div className={`myContainer-b flex justify-end flex-col ${flip == true ? 'xl:flex-row-reverse' : 'xl:flex-row'} relative`}>
         <div className={`
         absolute
         

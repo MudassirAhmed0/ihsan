@@ -6,13 +6,13 @@ import { BsFillArrowRightCircleFill } from "react-icons/bs";
 const Footer = () => {
   return (
     <>
-      <footer className={`bg-[#0F2E3C] pt-[32px] md:pt-[50px]`}>
+      <footer className={`bg-[#0F2E3C] pt-[42px] md:pt-[97px]`}>
         <div className="pb-0">
           <div className="myContainer-footer">
-            <h1 className="fpr text-[22px] md:text-[35px]  text-[#fff] leading-[32px] md:leading-[32px]   max-w-[800px] mx-auto text-center">
+            <h1 className="fpr text-[32px] md:text-[55px]  text-[#fff] leading-[32px] md:leading-[55px]   max-w-[800px] mx-auto text-center">
               Get started with <br /> Ihsan Coaching today
             </h1>
-            <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[22px] text-[#fff] pt-[16px] md:pt-[20px] pb-[16px] md:pb-[26px] max-w-[690px] mx-auto text-center">
+            <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[22px] text-[#fff] pt-[21px] md:pt-[30px] pb-[21px] md:pb-[46px] max-w-[690px] mx-auto text-center">
               Let’s take the first step towards better health and well-being,
               together. Get in touch to learn more about coaches or services, or
               to set up an initial session that fits your schedule.
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
           <div className="myContainer-footer px-[10px] pt-[35px] md:pt-[60px] pb-0 md:pb-[30px] flex flex-col md:flex-row justify-between">
             <div className="pb-[23px] md:pb-0">
-              <h6 className="fpr text-[#fff] text-[18px] md:text-[32px] capitalize">
+              <h6 className="fpr text-[#fff] text-[18px] md:text-[42px] capitalize">
                 Services
               </h6>
               <ul>
@@ -57,7 +57,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="pb-[23px] md:pb-0">
-              <h6 className="fpr text-[#fff] text-[18px] md:text-[32px] capitalize">
+              <h6 className="fpr text-[#fff] text-[18px] md:text-[42px] capitalize">
                 About
               </h6>
               <ul>
@@ -82,7 +82,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="pb-[13px] md:pb-0 md:pr-[10%]">
-              <h6 className="fpr text-[#fff] text-[18px] md:text-[32px] capitalize">
+              <h6 className="fpr text-[#fff] text-[18px] md:text-[42px] capitalize">
                 Contact
               </h6>
               <ul>
@@ -119,13 +119,15 @@ const Footer = () => {
             18+ Waiver | Under 18 Waiver
           </p>
           <p className="fgr text-[#fff] text-[12px] md:text-[16px] leading-[22px] md:leading-[30px] pt-[10px] md:pt-[20px] pb-[50px]">
-            <a className="cursor-pointer hover:opacity-[.8]">
-              <Link href="#">Privacy Policy</Link>
-            </a>
-            &nbsp;|&nbsp; 
-            <a className="cursor-pointer hover:opacity-[.8]">
-              <Link href="#">Terms &#38; Conditions</Link>
-            </a>
+            <Link href="#">
+              <a className="cursor-pointer hover:opacity-[.8]">Privacy Policy</a>
+            </Link>
+            &nbsp;|&nbsp;
+            <Link href="#">
+              <a className="cursor-pointer hover:opacity-[.8]">
+                Terms &#38; Conditions
+              </a>
+            </Link>
           </p>
         </div>
       </footer>
