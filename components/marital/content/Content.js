@@ -27,7 +27,7 @@ const Content = ({ data, pb }) => {
         </p>
       </div>
       <div className="myContainer flex flex-col lg:flex-row justify-end relative pt-[3.7%] pb-[8%]">
-        <div className="absolute left-0 top-[5%] xl:top-[unset] max-w-[90%]  lg:max-w-[90%] xl:max-w-[45%]">
+        <div className="absolute left-0 top-[5%] xl:top-[unset] max-w-[90%]  lg:max-w-[90%] xl:max-w-[550px]">
           <div
             className="max-w-[100%] left-0 after:w-[150px] md:after:w-[337px] relative after:h-[100px] md:after:h-[200px] after:bg-[#0F2E3C] after:rounded-bl-[100px] after:right-[50px] after:bottom-[-25px] after:absolute after:z-[-1] z-[2]
         before:w-[150px] md:before:w-[337px] relative before:h-[100px] md:before:h-[200px] before:bg-[#0F2E3C] before:rounded-tr-[100px] before:left-[0] before:top-[-30px] sm:before:top-[-60px] before:absolute

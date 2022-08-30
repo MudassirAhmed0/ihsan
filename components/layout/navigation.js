@@ -105,23 +105,23 @@ export default function Navigation() {
               </div>
             </a>
           </Link>
-          <ul className="desktop-nav-menu text-white capitalize flex-col xl:flex-row text-center xl:text-left flex gap-x-8 pb-[40px] xl:pb-0 py-[10%] xl:py-0">
-            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[14px] md:text-[16px]  py-[15px] xl:py-[30px]">
+          <ul className="desktop-nav-menu text-white capitalize flex-col xl:flex-row text-center xl:text-left flex gap-x-10 pb-[40px] xl:pb-0 py-[10%] xl:py-0">
+            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[14px] md:text-[19px]  py-[15px] xl:py-[30px]">
               <Link href="/about-us">
                 <a>About Us</a>
               </Link>
             </li>
-            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[14px] md:text-[16px]  px-[4px ] 2xl:px-[0 ] py-[15px] xl:py-[30px]">
+            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[14px] md:text-[19px]  px-[4px ] 2xl:px-[0 ] py-[15px] xl:py-[30px]">
               <Link href="/about-us/#join_team">
                 <a>Our Team</a>
               </Link>
             </li>
-            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[14px] md:text-[16px]  px-[4px ] 2xl:px-[0 ] py-[15px] xl:py-[30px]">
+            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[14px] md:text-[19px]  px-[4px ] 2xl:px-[0 ] py-[15px] xl:py-[30px]">
               <Link href="/services">
                 <a>Services</a>
               </Link>
             </li>
-            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[14px] md:text-[16px]  px-[4px ] 2xl:px-[0 ] py-[15px] xl:py-[30px]">
+            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[14px] md:text-[19px]  px-[4px ] 2xl:px-[0 ] py-[15px] xl:py-[30px]">
               <Link href="/programs">
                 <a>Programs</a>
               </Link>

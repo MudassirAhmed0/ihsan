@@ -89,10 +89,10 @@ body {
 }
 .myContainer {
   width: 100%;
-  /* max-width: 1440px; */
-  max-width: 80%;
-  /* padding-left: 60px; */
-  /* padding-right: 60px; */
+  max-width: 1440px;
+  
+  padding-left: 60px;
+  padding-right: 60px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -106,10 +106,10 @@ body {
 } */
 .myContainer-footer{
   width: 100%;
-  /* max-width: 1440px; */
-  max-width: 80%;
-  /* padding-left: 60px; */
-  /* padding-right: 60px; */
+  max-width: 1440px;
+  
+  padding-left: 60px;
+  padding-right: 60px;
   margin-left: auto;
   margin-right: auto;
 }

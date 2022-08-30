@@ -21,7 +21,7 @@ const Content = ({ data, pb }) => {
       </div>
       <div className="myContainer flex flex-col lg:flex-row justify-end relative pt-[3.7%] pb-[8%]">
 
-        <div className='absolute left-0 top-[5%] xl:top-[unset] max-w-[90%]  lg:max-w-[90%] xl:max-w-[45%]'>
+        <div className='absolute left-0 top-[5%] xl:top-[unset] max-w-[90%]  lg:max-w-[90%] xl:max-w-[530px]'>
           <div className='max-w-[100%] left-0 after:w-[100px] md:after:w-[200px] relative after:h-[100px] md:after:h-[200px] after:bg-[#0F2E3C] after:rounded-[100px] after:right-[-15px] sm:after:right-[-35px] after:bottom-[-15px] sm:after:bottom-[-40px] after:absolute after:z-[-1] z-[2]
         before:w-[150px] md:before:w-[337px] relative before:h-[100px] md:before:h-[160px] before:bg-[#0F2E3C] before:rounded-tr-[100px] before:left-[0] before:top-[-30px] sm:before:top-[-50px] before:absolute
         '><Image src={data.img} />

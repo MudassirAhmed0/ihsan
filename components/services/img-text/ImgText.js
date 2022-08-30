@@ -20,7 +20,7 @@ const ImgText = ({ data, pb, flip }) => {
 
         
         
-        top-0 xl:top-[unset] max-w-[85%] sm:max-w-[90%] md:max-w-[100%] xl:max-w-[46%]
+        top-0 xl:top-[unset] max-w-[85%] sm:max-w-[90%] md:max-w-[100%] xl:max-w-[570px]
         `}>
           <div className={
             `

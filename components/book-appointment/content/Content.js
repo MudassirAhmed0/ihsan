@@ -16,7 +16,7 @@ const Content = ({ appointments, pb }) => {
         <h1 className="fpr text-[40px] md:text-[55px] leading-[40px] md:leading-[55px]  text-[#182657] mb-[20px] md:mb-[40px]">
           Available coaches
         </h1>
-        <div className=" flex flex-col gap-y-[30px]">
+        <div className=" flex flex-col gap-y-[40px]">
           {appointments.map((appointment) => {
             return (
               <AppointmentCard key={appointment.id} appointment={appointment} />
