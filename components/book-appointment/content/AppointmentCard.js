@@ -36,9 +36,9 @@ const AppointmentCard = ({ appointment }) => {
         </Link>
 
         <div className="w-full  mt-[25px]">
-          <h6 className="  fgr font-[600] text-[#292929] text-[12px] md:text-[16px] leading-[16px] md:leading-[24px]  pb-[3px]">
+         {appointment.sessionsAvailability && <h6 className="  fgr font-[600] text-[#292929] text-[12px] md:text-[16px] leading-[16px] md:leading-[24px]  pb-[3px]">
             Available for:
-          </h6>
+          </h6>}
           <div className="flex flex-wrap justify-start max-h-[300px]">
             {appointment.sessionsAvailability?.map((sessionAvailability) => {
              
