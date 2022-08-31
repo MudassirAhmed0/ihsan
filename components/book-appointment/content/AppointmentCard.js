@@ -48,6 +48,7 @@ const AppointmentCard = ({ appointment }) => {
                    
                   <a
                   target="_blank"
+                  rel="noreferrer"
                   key={sessionAvailability?.length >0  && sessionAvailability[0]}
                   href={sessionAvailability?.length >0  && sessionAvailability[1]?sessionAvailability[1]:""}
                   className="w-[36%] text-[#182657] hover:opacity-[0.8] fgr text-[12px] underline md:text-[16px] leading-[16px] md:leading-[24px]  text-[#555555]"
