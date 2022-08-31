@@ -26,7 +26,7 @@ const AppointmentCard = ({ appointment }) => {
           {appointment.designation}
         </h5>
 
-        <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[24px]  text-[#555555] pt-[5px] md:pt-[10px]">
+        <p className="fgr max-w-[756px] text-[12px] md:text-[16px] leading-[16px] md:leading-[24px]  text-[#555555] pt-[5px] md:pt-[10px]">
           {appointment.description}
         </p>
         <Link href="#">

@@ -12,13 +12,13 @@ const Content = ({ data, pb }) => {
       }`}
     >
       <div className="myContainer  pb-[30px]">
-        <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] text-[#555555] pb-[20px] md:pb-[20px]">
+        <p className="fgr max-w-[1099px] text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] text-[#555555] pb-[20px] md:pb-[20px]">
           Maintaining a healthy marriage takes consistent work. You’ll face new
           challenges to overcome every day, which can add stress and weight to a
           marriage. And if that becomes overwhelming, you’ll need new tools and
           techniques to keep your relationship going strong.
         </p>
-        <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] text-[#555555] pb-[20px] md:pb-[20px]">
+        <p className="fgr max-w-[1099px] text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] text-[#555555] pb-[20px] md:pb-[20px]">
           Marital coaching focuses on helping you and your partner truly
           understand one another, how to effectively communicate, and resolving
           conflicts in a way you’re both comfortable with. By addressing

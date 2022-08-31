@@ -41,7 +41,7 @@ export default function Consultation() {
               <h2 className="fpr text-[32px] md:text-[70px]   leading-[32px] md:leading-[60px]   text-[#0F2E3C]">
                 Request a<br /> consultation
               </h2>
-              <p className="mt-5 md:mt-5 text-[#555555] text-[12px] md:text-[16px] fgr ">
+              <p className="max-w-[560px] mt-5 md:mt-5 text-[#555555] text-[12px] md:text-[16px] fgr ">
                 With a unique understanding of the challenges Muslims may face
                 in Western society, we’re able to offer tailored programs that
                 bridge traditional coaching and Islamic consulting. And unlike
@@ -50,7 +50,7 @@ export default function Consultation() {
                 a member of our team will be in touch with you as soon as
                 possible.
               </p>
-              <p className="mt-5 md:mt-5 text-[#555555] text-[12px] sm:text-[16px]   fgr ">
+              <p className="max-w-[560px] mt-5 md:mt-5 text-[#555555] text-[12px] sm:text-[16px]   fgr ">
                 If this is not your first appointment, please visit our calendly
                 portal to book your next appointment.
               </p>

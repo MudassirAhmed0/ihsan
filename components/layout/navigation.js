@@ -51,7 +51,7 @@ export default function Navigation() {
       <div className="hidden lg:h-[30px] md:block h-[50px] bg-[#fff]">
         <ul className="myContainer flex justify-end items-center h-[100%]">
           <li className="px-[15px]  text-[15px] fgb">
-            <Link href="/contact">Careers</Link>
+          <Link href="/about-us/#join_team">Careers</Link>
           </li>
           <li className="px-[15px]  text-[15px] fgb">
             <Link href="/blogs">Blog</Link>
@@ -111,27 +111,27 @@ export default function Navigation() {
                 <a>About Us</a>
               </Link>
             </li>
-            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[14px] md:text-[19px]  px-[4px ] 2xl:px-[0 ] py-[15px] xl:py-[30px]">
-              <Link href="/about-us/#join_team">
+            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[14px] md:text-[19px] px-0 xl:px-[5px] 2xl:px-[0 ] py-[15px] xl:py-[30px]">
+              <Link href="/about-us/#our_team">
                 <a>Our Team</a>
               </Link>
             </li>
-            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[14px] md:text-[19px]  px-[4px ] 2xl:px-[0 ] py-[15px] xl:py-[30px]">
+            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[14px] md:text-[19px] px-0 xl:px-[5px] 2xl:px-[0 ] py-[15px] xl:py-[30px]">
               <Link href="/services">
                 <a>Services</a>
               </Link>
             </li>
-            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[14px] md:text-[19px]  px-[4px ] 2xl:px-[0 ] py-[15px] xl:py-[30px]">
+            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[14px] md:text-[19px] px-0 xl:px-[5px] 2xl:px-[0 ] py-[15px] xl:py-[30px]">
               <Link href="/programs">
                 <a>Programs</a>
               </Link>
             </li>
-            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[14px] md:text-[16px]  px-[4px ] 2xl:px-[0 ] py-[15px] xl:py-[30px]">
+            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[14px] md:text-[16px] px-0 xl:px-[5px] 2xl:px-[0 ] py-[15px] xl:py-[30px]">
               <Link href="/#faq">
                 <a>FAQs</a>
               </Link>
             </li>
-            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[12px] md:text-[16px] py-[15px] xl:py-[30px]">
+            <li className="fgr font-[600] text-[#fff] transition-all duration-300 text-[12px] md:text-[16px] py-[15px] xl:py-[30px] xl:pr-[10px]">
               <Link href="/book-appointment">
                 <a className="bg-[#AE8B5C] text-[#fff] rounded-[50px] px-[25px] py-[10px] hover:opacity-[.8]">
                   Get Started

@@ -22,6 +22,14 @@ const coaches = [
     email: "farhan.ahmed@ihsancoaching.com",
   },
   {
+    profileImg: person5,
+    name: "Asmaa Mahran",
+    slugName: "Asmaa_Mahran",
+    designation: "Coach",
+    status: "Masters of Science in Psychology",
+    email: "asmaa.mahran@ihsancoaching.com",
+  },
+  {
     profileImg: person3,
     name: "Rehena Rana",
     slugName: "Rehena_Rana",
@@ -38,21 +46,14 @@ const coaches = [
     email: "rawand.abdelghani@ihsancoaching.com",
   },
   {
-    profileImg: person5,
-    name: "Asmaa Mahran",
-    slugName: "Asmaa_Mahran",
-    designation: "Coach",
-    status: "Masters of Science in Psychology",
-    email: "asmaa.mahran@ihsancoaching.com",
-  },
-  {
     profileImg: person6,
-    name: "Mohammed Bemat Coach`",
+    name: "Mohammed Bemat",
     slugName: "Mohammed_Bemat_Coach",
     designation: "Coach",
     status: "Masters in Pastoral Studies",
     email: "mohammed.bemat@ihsancoaching.com",
   },
+  
 ];
 
 const religiousConsultants = [
@@ -76,7 +77,7 @@ const religiousConsultants = [
 
 const Team = () => {
   return (
-    <section id="join_team" className="pb-[20px] md:pb-[50px]">
+    <section id="our_team" className="pb-[20px] md:pb-[50px]">
       <div className="min-h-[auto] md:min-h-[480px] flex items-center relative">
         <div className="absolute z-[-1] top-0 w-full lg:w-[48%]">
           <Image src={meeting} alt="meeting" />

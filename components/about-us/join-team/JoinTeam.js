@@ -20,7 +20,7 @@ const JoinTeam = () => {
   };
 
   return (
-    <section className="w-full py-[40px] md:py-[93px] bg-[#F2F2F2] relative overflow-hidden">
+    <section id="join_team" className="w-full py-[40px] md:py-[93px] bg-[#F2F2F2] relative overflow-hidden">
       <div className="absolute left-0 right-0 top-0 w-full h-[100%]">
         <div className="scale-[1.1]">
           <Image src={pattern} />
@@ -32,20 +32,20 @@ const JoinTeam = () => {
           <h1 className="fpr text-[32px] md:text-[60px] 2xl:text-[70px] leading-[32px] md:leading-[60px]   text-[#0F2E3C] pb-[15px] md:pb-[20px]">
             Join our team
           </h1>
-          <p className="text-[12px] md:text-[16px] leading-[18px] md:leading-[26px] text-[#292929] mb-[15px] md:mb-[25px]">
+          <p className="text-[12px] md:text-[16px] leading-[18px] md:leading-[26px] text-[#292929] mb-[15px] md:mb-[30px]">
             Whether you already have a private practice or are thinking about
             opening one, working indepenently can be a lot of work. We
             understand the unique challenges in building your personal practice
             without getting overwhelmed.
           </p>
-          <p className="text-[12px] md:text-[16px] leading-[18px] md:leading-[26px] text-[#292929] mb-[15px] md:mb-[25px]">
+          <p className="text-[12px] md:text-[16px] leading-[18px] md:leading-[26px] text-[#292929] mb-[15px] md:mb-[30px]">
             Many of the coaches at Ihsan Coaching have their own independent
             practice, but also work with us due to our extensive network and
             consistently-growing source of referral. We also offer
             mentorship,and other growth opportunities to build your coaching
             skills.
           </p>
-          <p className="text-[12px] md:text-[16px] leading-[18px] md:leading-[26px] text-[#292929] mb-[15px] md:mb-[25px]">
+          <p className="text-[12px] md:text-[16px] leading-[18px] md:leading-[26px] text-[#292929] mb-[15px] md:mb-[30px]">
             By joining our team, you’ll have the opportunity to coach
             nationwide, host seminars, and benefit the Muslim community
             nationwide. At Ihsan Coaching, we invest in our coaches, and help

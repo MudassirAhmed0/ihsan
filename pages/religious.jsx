@@ -38,8 +38,8 @@ export default function Programs() {
             Religious consulting
           </h1>
           <p className="fgr text-[12px] md:text-[18px] leading-[16px] md:leading-[30px] text-[#555555] text-center max-w-[760px] mx-auto pt-[15px] md:pt-[20px]">
-            |Our religious consultation services are a simpler way to connect
-            and speak directly with an Islamic scholar about any situation you’d
+            Our religious consultation services are a simpler way to connect and
+            speak directly with an Islamic scholar about any situation you’d
             like to discuss.
           </p>
         </div>
@@ -49,14 +49,16 @@ export default function Programs() {
       <section className="w-full  pt-[40px] md:pt-[70px]    pb-[30px] md:pb-[93px]   bg-[#fff]">
         <div className="myContainer">
           <div className=" w-full ">
-            <p className=" text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] mt-4 text-[#555555] ">
+            <p className="  max-w-[1090px] text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] mt-4 text-[#555555] ">
               When faced with a faith-based issue, it can be hard consulting
-              with an Islamic scholar on a whim. <br />
-              <br /> Our religious consultation services are a simpler way to
-              connect and speak directly with an Islamic scholar about any
-              situation you’d like to discuss. You can schedule a session at
-              your convenience and do it anywhere and anytime through our
-              easy-to-use online platform that’s safe and confidential.
+              with an Islamic scholar on a whim.
+            </p>
+            <p className="  max-w-[1090px] text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] mt-4 text-[#555555] ">
+              Our religious consultation services are a simpler way to connect
+              and speak directly with an Islamic scholar about any situation
+              you’d like to discuss. You can schedule a session at your
+              convenience and do it anywhere and anytime through our easy-to-use
+              online platform that’s safe and confidential.
             </p>
 
             <div className="w-full flex flex-wrap justify-between mt-20">

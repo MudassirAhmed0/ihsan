@@ -85,7 +85,7 @@ function SamplePrevArrow(props) {
     <section className="w-full py-[43px] md:py-[93px] bg-[#fff]">
       <div className="myContainer">
         <div className=" w-full ">
-          <h2 className="fpr text-[30px] md:text-[38px]  leading-[30px] md:leading-[38px]  text-[#0F2E3C] ">
+          <h2 className="fpr text-[30px] md:text-[44px]  leading-[30px] md:leading-[44px]  text-[#0F2E3C] ">
             Till Death Do Us Part: Premarital Coaching and How to Choose the Right Spouse
           </h2>
           <p className=" text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] mt-4 text-[#555555] ">
@@ -133,17 +133,17 @@ function SamplePrevArrow(props) {
           <div className="feedbacks-wrapper">
             <h2 className="fpr text-[32px] lg:text-[42px] 2xl:text-[52px] text-center mt-[70px] text-[#182657] ">See what previous seminar hosts had to say</h2>
             <div className="feedbacks flex justify-center mt-[50px] w-[100%] ">
-              <div className="w-[100%] md:w-[85%] ">
+              <div className="w-[100%] md:w-[75%]">
                 <Slider {...settings} >
                   <div className=" px-4 md:px-[100px] py-[20px] xl:py-[50px] bg-[#1826570D] border ">
-                    <p className="italic text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] text-[#555555] text-center ">
+                    <p className="italic text-[12px] md:text-[20px] leading-[20px] md:leading-[26px] text-[#555555] text-center ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                     <div className="flex mt-[20px] items-center max-w-fit mx-auto ">
                       <span className="profile bg-white border border-[#707070] rounded-[50%] w-[75px] h-[75px] "></span>
                       <div className="ml-4">
-                        <p className="text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] font-bold ">Sheikh Abdullah Halton Mosque</p>
-                        <p className="text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] ">Halton Mosque</p>
+                        <p className="text-[12px] md:text-[18px] leading-[18px] md:leading-[18px] font-bold ">Sheikh Abdullah Halton Mosque</p>
+                        <p className="text-[12px] md:text-[18px] leading-[18px] md:leading-[26px] ">Halton Mosque</p>
                       </div>
                     </div>
                   </div>
@@ -155,8 +155,8 @@ function SamplePrevArrow(props) {
                     <div className="flex mt-[20px] max-w-fit mx-auto ">
                       <span className="profile bg-white border border-[#707070] rounded-[50%] w-[75px] h-[75px] "></span>
                       <div className="ml-4">
-                        <p className="text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] font-bold ">Sheikh Abdullah Halton Mosque</p>
-                        <p className="text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] ">Halton Mosque</p>
+                        <p className="text-[12px] md:text-[18px] leading-[18px] md:leading-[18px] font-bold ">Sheikh Abdullah Halton Mosque</p>
+                        <p className="text-[12px] md:text-[18px] leading-[18px] md:leading-[26px] ">Halton Mosque</p>
                       </div>
                     </div>
                   </div>
@@ -215,7 +215,7 @@ function SamplePrevArrow(props) {
                 <input className=" shadow-[0_0_30px_#00000029] p-2 md:p-4 h-[50px] w-full lg:w-[49%] rounded-[18px] text-[12px] md:text-[20px] lg:text-[24px]" type="text" placeholder="Topic Requested  " />
                 <textarea rows={4} className=" shadow-[0_0_30px_#00000029] p-2 md:p-4 w-full rounded-[18px]  text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] " placeholder="Message" />
                 <div className=" w-full">
-                  <button type="submit" className="shadow-[0_0_30px_#00000029] rounded-[40px] float-right bg-[#0F2E3C] text-[#fff]  text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] font-bold px-10 py-3 ">Send</button>
+                  <button type="submit" className="shadow-[0_0_30px_#00000029] rounded-[40px] float-right bg-[#0F2E3C] text-[#fff]  text-[12px] md:text-[16px] leading-[16px] md:leading-[18px] font-bold px-10 py-3 ">Send</button>
                 </div>
             </form>
           </div>

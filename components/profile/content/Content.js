@@ -21,18 +21,18 @@ const Content = ({ data, pb }) => {
               {data.designation}
             </h5>
 
-            <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[24px] text-[#555555] pt-[15px] md:pt-[20px]">
+            <p className="fgr max-w-[552px] text-[12px] md:text-[16px] leading-[16px] md:leading-[24px] text-[#555555] pt-[15px] md:pt-[20px]">
               {data?.paragraph1}
             </p>
-            <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[24px] text-[#555555] pt-[15px] md:pt-[20px]">
+            <p className="fgr max-w-[552px] text-[12px] md:text-[16px] leading-[16px] md:leading-[24px] text-[#555555] pt-[15px] md:pt-[20px]">
               {data?.paragraph2}
             </p>
-            <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[24px] text-[#555555] pt-[15px] md:pt-[20px]">
+            <p className="fgr max-w-[552px] text-[12px] md:text-[16px] leading-[16px] md:leading-[24px] text-[#555555] pt-[15px] md:pt-[20px]">
               {data?.paragraph3}
             </p>
           </div>
 
-          <div className="w-full lg:w-[50%] pl-[0] lg:pl-[88px]">
+          <div className="w-full lg:w-[50%] pl-[0] lg:pl-[20px] lg:pr-[45px]">
             {/* <div className="rounded-[250px] overflow-hidden ">
             {data?.profileImg &&  <Image src={data?.profileImg?.src} width={data?.profileImg?.width} height={data?.profileImg?.height}/>
            } </div> */}

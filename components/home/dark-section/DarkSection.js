@@ -22,10 +22,10 @@ const DarkSection = () => {
       <div className="myContainer relative z-[2]">
         <div className="px-0 sm:px-[5%] md:px-[0] xl:px-[5%]">
           <div className="flex flex-col lg:flex-row">
-            <h2 className="fpr text-[32px] md:text-[50px] sc1500:text-[70px] text-[#fff] leading-[32px] md:leading-[50px] sc1500:leading-[70px] min-w-[100%] md:min-w-[350px]">
-              What makes <br /> us different?
+            <h2 className="fpr text-[32px] md:text-[50px] sc1500:text-[70px] text-[#fff] leading-[32px] md:leading-[50px] sc1500:leading-[70px] min-w-[100%] md:min-w-[420px]">
+              What makes <br className="block sm:hidden" /> us different?
             </h2>
-            <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[28px] text-[#fff] pl-0 lg:pl-[5%] pt-[16px] lg:pt-0">
+            <p className="fgr max-w-[680px] text-[12px] md:text-[16px] leading-[16px] md:leading-[28px] text-[#fff] pl-0 lg:pl-[1%] pt-[16px] lg:pt-0">
               Coaching is another form of support for people that feel stuck in
               life, but don’t have a clinical illness. And Unlike traditional
               therapy, coaching is a more direct, goal-oriented approach to
@@ -104,7 +104,7 @@ const DarkSection = () => {
                 <h4 className="fgb text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] text-[#fff] pb-[5px]">
                   Individual Coaching
                 </h4>
-                <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
+                <p className="fgr max-w-[385px] text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
                   One-on-one coaching to help build self-confidence, improve
                   relationships, support careers, manage anxiety, and achieve
                   your personal goals.
@@ -125,7 +125,7 @@ const DarkSection = () => {
                 <h4 className="fgb text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] text-[#fff] pb-[5px]">
                   Premarital Coaching
                 </h4>
-                <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
+                <p className="fgr max-w-[345px] text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
                   Assess your compatibility and get a better understanding of
                   what constitutes an ideal Islamic marriage.
                   <Link href="/premarital">
@@ -144,7 +144,7 @@ const DarkSection = () => {
                 <h4 className="fgb text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] text-[#fff] pb-[5px]">
                   Marital Coaching
                 </h4>
-                <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
+                <p className="fgr max-w-[355px] text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
                   By understanding your partner better, the easier it’ll be to
                   find solutions to conflicts. Learn strategies to communicate
                   and resolve conflicts more effectively.
@@ -165,7 +165,7 @@ const DarkSection = () => {
                 <h4 className="fgb text-[16px] md:text-[28px] leading-[26px] md:leading-[36px] text-[#fff] pb-[5px]">
                   Religious Consulting
                 </h4>
-                <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
+                <p className="fgr max-w-[385px] text-[12px] md:text-[16px] leading-[16px] md:leading-[25px] text-[#fff]">
                   Designed for either individuals or couples, speak directly to
                   Islamic scholars about any faith-based concerns that may be
                   troubling you.

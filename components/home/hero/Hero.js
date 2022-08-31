@@ -22,16 +22,16 @@ const Hero = () => {
         </div>
         <div className="absolute left-0 right-0 top-0 w-full h-[100%] linear-gradient-2"></div>
         <div className="myContainer flex flex-col-reverse lg:flex-row relative z-[1]">
-          <div className="w-full lg:w-[48%] pt-[3%]">
+          <div className="w-full lg:w-[62%] xl:w-[52%] pt-[3%]">
             <h1 className="fpr text-[35px] sm:text-[70px] md:text-[110px] lg:text-[90px] sc1350:text-[110px] leading-[35px]  sm:leading-[70px] md:leading-[110px] lg:leading-[90px] sc1350:leading-[110px] sc1350   text-[#0F2E3C] md:max-w-[680px]">
               Feel like <br /> you again
             </h1>
-            <p className="fgr text-[12px] md:text-[20px] leading-[16px] md:leading-[26px] text-[#292929] pt-[13px] md:pt-[40px] pb-[16px] md:pb-[45px]">
+            <p className="fgr max-w-[600px] text-[12px] md:text-[20px] leading-[16px] md:leading-[26px] text-[#292929] pt-[13px] md:pt-[40px] pb-[16px] md:pb-[45px]">
               We offer a modern, solution-focused coaching approach to help you
               overcome life’s struggles. Our online platform is a simpler way to
               access the support you need anytime, anywhere you need it.
             </p>
-            <Link href="/contact">
+            <Link href="/book-appointment">
               <a>
                 <button
                   type="button"
@@ -43,7 +43,7 @@ const Hero = () => {
               </a>
             </Link>
           </div>
-          <div className="home-hero-img w-full md:w-[52%] mt-[-30px] right-0 md:right-[-30px] before:w-[58px] md:before:w-[160px] relative before:h-[58px] md:before:h-[160px] before:bg-[#AE8B5C] before:rounded-[100px] before:right-[0] md:before:right-[-25px] before:bottom-0 md:before:bottom-[20px] before:absolute p-[2%]">
+          <div className="home-hero-img w-full md:w-[52%] mt-[-30px] right-0 md:right-[-30px] before:w-[58px] md:before:w-[160px] relative before:h-[58px] md:before:h-[160px] before:bg-[#AE8B5C] before:rounded-[100px] before:right-[0] md:before:right-[-25px] before:bottom-0 md:before:bottom-[20px] before:absolute p-[.5%]">
             <Image src={heroimg} />
           </div>
         </div>

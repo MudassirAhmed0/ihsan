@@ -20,7 +20,7 @@ const BrownSection = () => {
             <div>
               <h6 className='fgb text-[14px] md:text-[22px] leading-[16px] md:leading-[30px]'><span> Confidential</span>
               </h6>
-              <p className='fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px]'> All of the information you provide is held with the highest level of confidentiality in accordance with HIPPA compliance. Everything shared between you and your coach stays between you.</p>
+              <p className='fgr text-[12px] max-w-[320px] md:text-[16px] leading-[16px] md:leading-[26px]'> All of the information you provide is held with the highest level of confidentiality in accordance with HIPPA compliance. Everything shared between you and your coach stays between you.</p>
             </div>
           </div>
           <div className='w-full xl:w-[31%] flex'>
@@ -28,7 +28,7 @@ const BrownSection = () => {
             <div>
               <h6 className='fgb text-[14px] md:text-[22px] leading-[16px] md:leading-[30px]'><span>Safe & affordable</span>
               </h6>
-              <p className='fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px]'>  Compared to traditional therapy, professional coaching is generally a more affordable option. Our consultations and sessions are done through a secure online platform, where you can feel comfortable talking in your home or another calming environment.</p>
+              <p className='fgr text-[12px] max-w-[320px] md:text-[16px] leading-[16px] md:leading-[26px]'>  Compared to traditional therapy, professional coaching is generally a more affordable option. Our consultations and sessions are done through a secure online platform, where you can feel comfortable talking in your home or another calming environment.</p>
             </div>
           </div>
           <div className='w-full xl:w-[31%] flex'>
@@ -36,7 +36,7 @@ const BrownSection = () => {
             <div>
               <h6 className='fgb text-[14px] md:text-[22px] leading-[16px] md:leading-[30px]'><span>Diverse</span>
               </h6>
-              <p className='fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px]'>  Our team of coaches are licensed therapists who have backgrounds in Counseling, Clinical Psychology, and Social Work, allowing our staff to offer diverse solutions. In addition, we offer a diverse coach staff that can conduct sessions in English, Arabic, and Urdu.</p>
+              <p className='fgr text-[12px] max-w-[320px] md:text-[16px] leading-[16px] md:leading-[26px]'>  Our team of coaches are licensed therapists who have backgrounds in Counseling, Clinical Psychology, and Social Work, allowing our staff to offer diverse solutions. In addition, we offer a diverse coach staff that can conduct sessions in English, Arabic, and Urdu.</p>
             </div>
           </div>
         </div>

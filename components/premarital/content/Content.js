@@ -12,11 +12,11 @@ const Content = ({ data, pb }) => {
       }`}
     >
       <div className="myContainer  ">
-        <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] text-[#555555] pb-[20px] md:pb-[20px]">
+        <p className="fgr max-w-[1099px] text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] text-[#555555] pb-[20px] md:pb-[20px]">
           Ihsan Coaching’s premarital coaching services are designed for
           individuals or couples considering or are on the path towards a Nikah.
         </p>
-        <p className="fgr text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] text-[#555555] pb-[20px] md:pb-[20px]">
+        <p className="fgr max-w-[1099px] text-[12px] md:text-[16px] leading-[16px] md:leading-[26px] text-[#555555] pb-[20px] md:pb-[20px]">
           Our premarital coaching program consists of five sessions that assess
           your compatibility, while we explore a wide range of topics and get a
           better grasp of the ideal Islamic marriage. Topics during these
@@ -47,13 +47,13 @@ const Content = ({ data, pb }) => {
         <div className="absolute left-0 top-[5%] xl:top-[unset] max-w-[90%]  lg:max-w-[90%] xl:max-w-[500px]">
           <div
             className="max-w-[100%] left-0 after:w-[150px] md:after:w-[337px] relative after:h-[100px] md:after:h-[200px] after:bg-[#0F2E3C] after:rounded-bl-[100px] after:right-[50px] after:bottom-[-25px] after:absolute after:z-[-1] z-[2]
-        before:w-[150px] md:before:w-[337px] relative before:h-[100px] md:before:h-[160px] before:bg-[#0F2E3C] before:rounded-tr-[100px] before:left-[0] before:top-[-30px] sm:before:top-[-60px] before:absolute
+        before:w-[150px] md:before:w-[237px] relative before:h-[100px] md:before:h-[160px] before:bg-[#0F2E3C] before:rounded-tr-[100px] before:left-[0] before:top-[-30px] sm:before:top-[-60px] before:absolute
         "
           >
             <Image src={data.img} />
           </div>
         </div>
-        <div className="w-full xl:w-[50%] pt-[92%] sm:pt-[86%] md:pt-[680px] xl:pt-0">
+        <div className="w-full xl:w-[58%] pt-[92%] sm:pt-[86%] md:pt-[680px] xl:pt-0">
           <h6 className="fgb text-[18px] md:text-[20px] leading-[18px] md:leading-[36px] text-[#555555]">
             {data.title}
           </h6>

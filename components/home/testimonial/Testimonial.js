@@ -21,7 +21,7 @@ const Testimonial = () => {
     return (
       <BsChevronRight
         onClick={onClick}
-        className="absolute right-[-6%] sm:right-[-4%] md:right-[4%] top-[22%] text-[25px] sm:text-[35px] text-[#9D9D9D] z-[2] cursor-pointer"
+        className="absolute right-[-6%] sm:right-[-4%] md:right-[2%] top-[22%] text-[25px] sm:text-[35px] text-[#9D9D9D] z-[2] cursor-pointer"
       />
     );
   }
@@ -31,7 +31,7 @@ const Testimonial = () => {
     return (
       <BsChevronLeft
         onClick={onClick}
-        className="absolute left-[-6%] sm:left-[-4%] md:left-[4%] top-[22%] text-[25px] sm:text-[35px] text-[#9D9D9D] z-[2] cursor-pointer"
+        className="absolute left-[-6%] sm:left-[-4%] md:left-[2%] top-[22%] text-[25px] sm:text-[35px] text-[#9D9D9D] z-[2] cursor-pointer"
       />
     );
   }
@@ -42,10 +42,10 @@ const Testimonial = () => {
         <h1 className="fpr text-[#0F2E3C] text-[24px] md:text-[40px] leading-[24px] md:leading-[45px] text-center max-w-[242px] md:max-w-[100%] mx-auto">
           Trusted throughout local communities
         </h1>
-        <div className="max-w-[1050px] bg-[#F2F2F2] mx-auto pt-[23px] md:pt-[69px] pb-[23px] md:pb-[48px] slider-main mt-[22px] md:mt-[45px] px-[26px] sm:px-[40px] lg:px-[50px] xl:px-0">
+        <div className="max-w-[930px] bg-[#F2F2F2] mx-auto pt-[23px] md:pt-[45px] pb-[23px] md:pb-[25px] slider-main mt-[22px] md:mt-[35px] px-[26px] md:px-[30px] ">
           <Slider {...settings}>
             <div className="min-h-[240px] fgi leading-[22px] text-center max-w-[850px] flex-imp flex-col justify-center">
-              <p className="text-[10px] md:text-[14px] leading-[12px] md:leading-[16px]">
+              <p className="max-w-[700px] mx-auto text-[10px] md:text-[14px] leading-[12px] md:leading-[16px]">
                 Ihsaan Coaching fills a much needed void in muslim communities.
                 As an Imam I have personally worked with Ihsaan coaching and
                 also have recommended many congregants to use Ihsaan for help
@@ -58,7 +58,7 @@ const Testimonial = () => {
                 </div>
                 <div className="flex flex-col">
                   <h6 className="fgr leading-[12px] md:leading-[26px] font-[600] text-[12px] md:text-[16px] text-[#555555] text-left mt-[7px] md:mt-[5px]">
-                    Shaykh Ilir Aliji{" "}
+                    Shaykh Ilir Aliji
                   </h6>
                   <h5 className="fgr leading-[12px] md:leading-[26px] text-[12px] md:text-[16px] text-[#555555] text-left mt-0 md:mt-[-10px]">
                     Imam at Masjid Albani and Instructor at Islamic Institute of
@@ -69,7 +69,7 @@ const Testimonial = () => {
             </div>
 
             <div className="min-h-[240px] fgi leading-[22px] text-center max-w-[850px] flex-imp flex-col justify-center">
-              <p className="text-[10px] md:text-[14px] leading-[12px] md:leading-[16px]">
+              <p className="max-w-[700px] mx-auto text-[10px] md:text-[14px] leading-[12px] md:leading-[16px]">
                 Ibn Abbas related that the Messenger of Allah (S) ““There is
                 nothing like marriage, for two who love one another.”
                 <br />
@@ -102,7 +102,7 @@ const Testimonial = () => {
             </div>
 
             <div className="min-h-[240px] fgi leading-[22px] text-center max-w-[850px] flex-imp flex-col justify-center">
-              <p className="text-[10px] md:text-[14px] leading-[12px] md:leading-[16px]">
+              <p className="max-w-[700px] mx-auto text-[10px] md:text-[14px] leading-[12px] md:leading-[16px]">
                 In a time where members of our communities are increasingly
                 facing mental health issues, marital disputes etc, it is
                 imperative to have services which cater to their needs.
@@ -125,7 +125,7 @@ const Testimonial = () => {
                 </div>
                 <div className="flex flex-col">
                   <h6 className="fgr leading-[12px] md:leading-[26px] font-[600] text-[12px] md:text-[16px] text-[#555555] text-left mt-[7px] md:mt-[5px]">
-                    Mufti Asif Umar{" "}
+                    Mufti Asif Umar
                   </h6>
                   <h5 className="fgr leading-[12px] md:leading-[26px] text-[12px] md:text-[16px] text-[#555555] text-left mt-0 md:mt-[-10px]">
                     Islamic Wills USA
