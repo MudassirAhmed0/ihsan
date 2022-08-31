@@ -77,9 +77,9 @@ const religiousConsultants = [
 
 const Team = () => {
   return (
-    <section id="our_team" className="pb-[20px] md:pb-[50px]">
-      <div className="min-h-[auto] md:min-h-[480px] flex items-center relative">
-        <div className="absolute z-[-1] top-0 w-full lg:w-[48%]">
+    <section id="our_team" className="pb-[20px] md:pb-[50px] ">
+      <div className=" myContainer min-h-[auto] md:min-h-[480px] flex items-center relative">
+        <div className="absolute z-[-1] top-0 w-full lg:w-[48%] max-w-[830px]">
           <Image src={meeting} alt="meeting" />
         </div>
         <div className="myContainer flex justify-end items-end">
